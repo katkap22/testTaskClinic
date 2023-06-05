@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TestTask</title>
+</head>
+<body>
+    <header class="header">
+            <div class="container">
+                <button class="btn" id="open-nav">
+                    <img src="./img/menu.svg" alt="menu">
+                </button>
+                <button class="btn btn-hidden" id="close-nav">
+                    <img src="./img/X.svg" alt="menu">
+                </button>
+
+                <img src="./img/LOGO.png" class="logo" alt="menu">
+
+                <div class="contact">
+                    <div class="tel">+7(863) 000 00 00</div>
+                    <div class="city">Ростов-на-Дону</div>
+                </div>
+
+                <div class="contactDesk">
+                    <div class="contactDesk__address">
+                        <div class="geo">
+                            <img class="geo" src="img/geo.svg" alt="geolocation">
+                            <div class="city">Ростов-на-Дону</div>
+                        </div>
+                        <div class="address">ул. Ленина, 2Б</div>
+                    </div>
+
+                    <div class="header-right">
+                        <div class="contact__icon">
+                            <img src="img/whatsappHeader.svg" alt="icon Whatsapp">
+                        </div>
+                        <div class="tel">+7(863) 000 00 00</div>
+                        <button>Записаться на прием</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-wide modal hide">
+                <div class="links">
+                    <a class='link' href="#about">О клинике</a>
+                    <a class='link' href="#check-up">Услуги</a>
+                    <a class='link' href="#">Специалисты</a>
+                    <a class='link' href="#">Цены</a>
+                    <a class='link' href="#">Контакты</a>
+                </div>
+
+                <button>Записаться на прием</button>
+            </div>
+
+
+    </header>
+    <main class="main">
+        <div class="container-wide">
+            <div><img class="main__img-modile" src="img/imgMain.png" alt="clinic"></div>
+            <div><img class="main__img-desk" src="img/imgMainDesk.png" alt="clinic"></div>
+
+            <div class="descr" id="about">
+                <h2 class="descr__title">Многопрофильная клиника для детей и взрослых</h2>
+                <div class="descr__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua
+                </div>
+            </div>
+        </div>
+
+        <div class="check-up" id="check-up">
+            <div class="container check-up__back">
+                <img class="check-up__img-mobile" src="img/imgCheck_up.png" alt="check-up">
+                <div class="check-up__img-desk"></div>
+                <div class="check-up__list">
+                    <h2 class="check-up__list__title">Check-UP</h2>
+                    <div class="check-up__list__subTitle">для мужчин</div>
+                    <ul class="check-up__list__items">
+                        <li>Гормональный скрининг</li>
+                        <li>Тестостерон</li>
+                        <li>Свободный тестостерон</li>
+                        <li>Глобулин, связывающий половые гормоны</li>
+                    </ul>
+                    <div class="check-up__total">
+                        Всего 2800₽
+                    </div>
+                    <span>3500₽</span>
+
+                    <div class="check-up__btn">
+                        <button class="btn green">Записаться</button>
+                        <button class="btn white">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="check-up__slider">
+                <svg class="left-arrow" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_11101_47)">
+                        <path d="M32.6718 15.6719H4.54488L9.20421 11.0351C9.7241 10.5177 9.7261 9.67678 9.20866 9.15689C8.69122 8.63693 7.85025 8.635 7.33036 9.15237L0.390637 16.0586C0.390173 16.059 0.389841 16.0595 0.389442 16.0599C-0.129124 16.5773 -0.130784 17.4209 0.389309 17.9401C0.389774 17.9405 0.390106 17.941 0.390505 17.9414L7.33022 24.8476C7.85005 25.3649 8.69102 25.3631 9.20852 24.8431C9.72596 24.3232 9.72397 23.4823 9.20408 22.9648L4.54488 18.3281H32.6718C33.4053 18.3281 33.9999 17.7335 33.9999 17C33.9999 16.2665 33.4053 15.6719 32.6718 15.6719Z" fill="#E1E1E1"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_11101_47">
+                            <rect width="34" height="34" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+<!--                <img src="img/left-arrow.svg" alt="left arrow">-->
+                <div>1<span>/4</span></div>
+                <svg class="right-arrow" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_11101_47)">
+                        <path d="M32.6718 15.6719H4.54488L9.20421 11.0351C9.7241 10.5177 9.7261 9.67678 9.20866 9.15689C8.69122 8.63693 7.85025 8.635 7.33036 9.15237L0.390637 16.0586C0.390173 16.059 0.389841 16.0595 0.389442 16.0599C-0.129124 16.5773 -0.130784 17.4209 0.389309 17.9401C0.389774 17.9405 0.390106 17.941 0.390505 17.9414L7.33022 24.8476C7.85005 25.3649 8.69102 25.3631 9.20852 24.8431C9.72596 24.3232 9.72397 23.4823 9.20408 22.9648L4.54488 18.3281H32.6718C33.4053 18.3281 33.9999 17.7335 33.9999 17C33.9999 16.2665 33.4053 15.6719 32.6718 15.6719Z" fill="#E1E1E1"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_11101_47">
+                            <rect width="34" height="34" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+<!--                <img src="img/right-arrow.svg" alt="right arrow">-->
+            </div>
+        </div>
+
+
+    </main>
+    <footer class="footer">
+        <div class="container-wide">
+            <div class="title">
+                <img src="img/logo_footer.png" alt="logo">
+                <div class="social">
+                    <a href="#"> <img src="img/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="img/whatsapp.png" alt="whatsapp"></a>
+                    <a href="#"><img src="img/telegram.png" alt="telegram"></a>
+                </div>
+               </div>
+            <div class="menu">
+                <a href="#">О клинике</a>
+                <a href="#">Услуги</a>
+                <a href="#">Специалисты</a>
+                <a href="#">Цены</a>
+                <a href="#">Контакты</a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
